@@ -11,29 +11,35 @@ class App extends React.Component {
     this.state = {
         data: [],
         colum:[{
+
           title: 'ID',
-          dataIndex: 'id',
-          key: 'id',
+          dataIndex: 'id'
         },
         {
-          title: 'Ndme',
+          title: 'Name',
           dataIndex: 'name',
-          key: 'name',
+        },
+        {
+          title: 'Username',
+          dataIndex: 'username',
+          key: 'username',
         },
         {
           title: 'Email',
           dataIndex: 'email',
           key: 'email',
-        },]
+        }
+
+      ]
     }
   
   }
    async componentDidMount() {
      const response = await fetch("https://jsonplaceholder.typicode.com/users");
-    const users = await response.json();
-      this.setState({ data:users}        )
+    const users = await response.json();    
+      this.setState({ data:users})
       
-    
+      
      
   }
 
