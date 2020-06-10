@@ -1,0 +1,4 @@
+tasm lab22/l
+pause
+tlink lab22
+td lab22

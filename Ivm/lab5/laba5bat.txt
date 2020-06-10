@@ -1,0 +1,4 @@
+TASM.EXE laba5
+PAUSE
+TLINK.EXE laba5
+td laba5

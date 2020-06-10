@@ -1,0 +1,4 @@
+TASM.EXE main + laab
+TLINK.EXE main + laab
+pause
+MAIN.EXE

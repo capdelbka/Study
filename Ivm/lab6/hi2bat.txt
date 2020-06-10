@@ -1,0 +1,2 @@
+tasm32/ml hi2.asm
+tlink32/Tpe/aa/c/x hi2.obj

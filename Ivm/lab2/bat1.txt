@@ -1,0 +1,4 @@
+tasm lab21.asm
+tlink lab21.obj
+pause
+lab21
